@@ -1,0 +1,99 @@
+<html class="no-js">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="./../assets/img/favicon.ico"/>
+    <!-- Start: Changeable By Page -->
+    <title>블로그(네이버) - 트렌드톡・TrendTalk</title>
+    <meta property="og:title" content="블로그(네이버) - 트렌드톡・TrendTalk"/>
+    <meta property="og:description" content="트렌드톡･마케팅 - 크로스보더 비즈니스 & 글로벌 마케팅 컨설팅 서비스"/>
+    <meta property="og:url" content="https://www.trendtalk.kr/naver-blog/"/>
+    <meta property="og:image" content="./../assets/img/img-trendtalk-main-800x400.jpg"/>
+    <!-- End: Changeable By Page -->
+    <meta property="og:site_name" content="TrendTalk Marketing"/>
+    <meta property="og:type" content="website"/>
+    <link rel="stylesheet" href="./../assets/css/bootstrap/4.1/bootstrap.min.css">
+    <script src="./../assets/js/jquery/3.2.1/jquery.min.js"></script>
+    <script src="./../assets/js/bootstrap/4.1.1/bootstrap.min.js"></script>
+    <style>
+      html body {width: 100%;height: 100%;padding: 0px;margin: 0px;overflow: hidden;} #preview-frame {width: 100%;background-color: #fff;}
+    </style>
+    <script>
+       //function to fix height of iframe!
+       var calcHeight = function() {
+         //var headerDimensions = 0; //$('#header-bar').height();
+         $('#preview-frame').height($(window).height());
+       }
+
+       $(document).ready(function() {
+         calcHeight();
+        //    $('#header-bar a.close').mouseover(function() {
+        //    $('#header-bar a.close').addClass('activated');
+        //  }).mouseout(function() {
+        //    $('#header-bar a.close').removeClass('activated');
+        //  });
+       });
+
+       $(window).resize(function() {
+         calcHeight();
+       }).load(function() {
+         calcHeight();
+       });
+    </script>
+    <!-- Global site tag (gtag.js; TTMKT.COM) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-117102066-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-117102066-1');
+    </script>
+    <!-- Naver Analytics(TTMKT.COM): Start -->
+    <script type="text/javascript" src="http://wcs.naver.net/wcslog.js"></script>
+    <script type="text/javascript">
+      if(!wcs_add) var wcs_add = {};
+      wcs_add["wa"] = "752080907515f4";
+      wcs_do();
+    </script>
+    <!-- Naver Analytics: End -->
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+       <a class="navbar-brand" href="./">
+         <img src="https://hellotblog.files.wordpress.com/2018/06/trendtalk-logo-01-100x100.png" width="30" height="30" class="d-inline-block align-top" alt="">
+         TrendTalk
+       </a>
+
+       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon"></span>
+       </button>
+
+       <div class="collapse navbar-collapse" id="navbarSupportedContent">
+         <ul class="navbar-nav ml-md-auto">
+           <!-- <li class="nav-item dropdown">
+             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+               Example
+             </a>
+             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+               <a class="dropdown-item" href="#">Action</a>
+               <a class="dropdown-item" href="#">Another action</a>
+               <div class="dropdown-divider"></div>
+               <a class="dropdown-item" href="#">Something else here</a>
+             </div>
+           </li> -->
+           <li class="nav-item active">
+             <a class="nav-link" href="https://news.trendtalk.kr/" target="_blank">뉴스레터</a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link" href="https://www.trendtalk.kr/kakao/" target="_blank">카카오톡 문의</a>
+           </li>
+         </ul>
+       </div>
+      </div>
+     </nav>
+     <iframe id="preview-frame" src="https://blog.naver.com/trend-talk" name="preview-frame" frameborder="0" noresize="noresize" style="height: 902px;">
+     </iframe>
+  </body>
+</html>

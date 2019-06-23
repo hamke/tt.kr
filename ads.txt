@@ -1,0 +1,3 @@
+#Ads.txt www.trendtalk.kr 20190602
+
+google.com, pub-8106408173466568, DIRECT
